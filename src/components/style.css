@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E3F3FF;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    height: 100vh;
+    border-right: 1px solid #000;
+}
+
+.logo {
+    width: 250px;
+    padding: 10px 0;
+}
+
+.searchBox, input.searchBox:focus {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.iconBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-gap: 10px;
+    justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.iconBox::-webkit-scrollbar {
+	width: 6px;
+	background-color: #E3F3FF;
+}
+
+.iconBox::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+
+.iconBox .icon {
+    width: 125px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.iconBox .icon img {
+    width: 125px;
+}
+
+.iconBox .icon p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.iconBox .premium {
+    position: relative;
+}
+
+.iconBox .premium::before {
+    position: absolute;
+    content: '☆';
+    top: 2px;
+    right: 10px;
+    color: red;
+}
