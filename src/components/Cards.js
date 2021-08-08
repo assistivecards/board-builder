@@ -65,7 +65,7 @@ export default class Cards extends React.Component {
     };
 
     turnBack(){
-        if(this.state.category.length != 0 && this.state.results.length == 0){
+        if(this.state.category.length !== 0 && this.state.results.length === 0){
             return(<button onClick={() => this.setState({category: []})}>Turn Back</button>)
         }
     };
@@ -73,21 +73,21 @@ export default class Cards extends React.Component {
     render(){
         return(
             <div className="leftContent">
-                <img src={'/images/logo.svg'} className="logo" />
+                <img src={'/images/logo.svg'} className="logo" alt="Logo" />
                 <input type="search" className="searchBox" placeholder="Search"  onChange={(e) => this.searchTerm(e)} />
                 <div className="iconBox">
 
-                    {this.state.results.length == 0 && this.state.category.length == 0 && this.state.cards.map((cards) => {
+                    {this.state.results.length === 0 && this.state.category.length === 0 && this.state.cards.map((cards) => {
                         return <Card cards={cards} key={cards.id} event={() => this.clickedCard(cards.slug)} />
                     })}
 
                     {this.turnBack()}
 
-                    {this.state.results.length == 0 && this.state.category.length != 0 && this.state.category.map((pack, i) => {
+                    {this.state.results.length === 0 && this.state.category.length !== 0 && this.state.category.map((pack, i) => {
                         return <Pack pack={pack} key={i} />
                     })}
 
-                    {this.state.results.length != 0 &&this.state.results.map((pack, i) => {
+                    {this.state.results.length !== 0 &&this.state.results.map((pack, i) => {
                         return <Pack pack={pack} key={i} />
                     })}
                 </div>

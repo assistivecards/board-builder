@@ -79,3 +79,50 @@ body {
     right: 10px;
     color: red;
 }
+
+.rightContent {
+    margin: 40px 0 0 0;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 153px);
+    grid-template-rows: repeat(auto-fill, 153px);
+    justify-content: center;
+}
+
+.box {
+    width: 153px;
+    height: 153px;
+    cursor: pointer;
+    border: 1px solid #000;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.options {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+}
+
+.printBtn {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media print {
+    .leftContent, footer, .printBtn, .options {display: none;}
+    .rightContent {
+        margin: 7% 0 0 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 153px);
+        grid-template-rows: repeat(auto-fill, 153px);
+        justify-content: center;
+    }
+}
+@page { size: auto;  margin: 0mm; }
