@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Board Builder for AssistiveCards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Image](https://media.discordapp.net/attachments/727739492055777351/873937349476769843/unknown.png)
 
-## Available Scripts
+> Created for [AssistiveCards](https://assistivecards.com/) users.
 
-In the project directory, you can run:
+__What we used__
+- [x]  React
+- [x] [AssistiveCards APİ](https://api.assistivecards.com/)
+- [ ] React Beautiful DnD
 
-### `npm start`
+# Licensing
+Assistive Cards are free for personal and non-commercial projects, and you are required to give proper attribution.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Check details for using in non-commercial products at  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How to Attribute
 
-### `npm test`
+If you are building a website, you can add a hyperlink to your html page like;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`Cards from <a href="https://assistivecards.com">Assistive Cards</a>`
 
-### `npm run build`
+If you are building an app or some sort of medium you are not able to add a link, you can mention Assistive Cards in the "Licenses" or "About" screen of your application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Purchasing a Commercial License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want to use Assistive Cards Illustrations and Assistive Phrases on a commercial project, you will need to purchase a license from us.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This license is redeemed for the individual or the company that purchases, this means you can use the same license on different projects of yours (as individual) or your company.
 
-### `npm run eject`
+[Buy Page](https://assistivecards.com/licensing/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+&copy;  Copyright  [Dream Oriented Limited](http://dreamoriented.org/)
