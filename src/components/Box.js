@@ -13,7 +13,6 @@ export default class Box extends Component {
 
     boardOption(e){
         this.setState({box: e.target.value});
-        console.log(e.target.value);
     }
 
     render(){

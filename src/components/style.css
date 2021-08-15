@@ -4,6 +4,17 @@ body {
     background: #E3F3FF;
 }
 
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     display: flex;

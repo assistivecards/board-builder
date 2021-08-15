@@ -6,7 +6,7 @@ export default class Card extends Component{
         return(
             <div className="icon" onClick={this.props.event}>
                 <img src={"https://api.assistivecards.com/cards/icon/"+this.props.cards.slug+".png"} alt={this.props.cards.locale} />
-                <p>{this.props.cards.slug}</p>
+                <p>{this.props.cards.locale}</p>
             </div>
         )
     }

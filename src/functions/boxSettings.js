@@ -12,9 +12,12 @@ export default class BoxSettings extends Component {
             boxs.push(<div className="box" key={i} id={i}></div>);
         }
 
-        return(<>{boxs}
-            {console.log(boxs)}
-        </>)
+        return(
+            <>
+            {boxs}
+            </>
+        );
+
 
     }
 

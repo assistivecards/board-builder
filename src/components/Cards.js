@@ -33,7 +33,6 @@ export default class Cards extends React.Component {
         .then(resJs => {
             resJs.forEach(card => {
                 card.packSlug = title;
-                console.log(card);
             });
             this.setState({category: resJs})
         })
@@ -66,7 +65,16 @@ export default class Cards extends React.Component {
 
     turnBack(){
         if(this.state.category.length !== 0 && this.state.results.length === 0){
-            return(<button onClick={() => this.setState({category: []})}>Turn Back</button>)
+            return(
+                <>
+                    <button onClick={() => this.setState({category: []})}>Turn Back</button>
+                    {console.log(this.state.category.shift().packSlug)}
+                    <div className="icon" onClick={this.props.event}>
+                <img src={"https://api.assistivecards.com/cards/icon/"+this.state.category.shift().packSlug+".png"} alt={this.state.category.shift().packSlug} />
+                <p>{this.state.category.shift().packSlug.charAt(0).toUpperCase() + this.state.category.shift().packSlug.substring(1)}</p>
+            </div>
+                </>
+            )
         }
     };
 
