@@ -9,6 +9,12 @@ __What we used__
 - [x] [AssistiveCards APİ](https://api.assistivecards.com/)
 - [ ] React Beautiful DnD
 
+# How to run locally
+
+- Fetch the project via GitHub
+- `yarn install`
+- `yarn start`
+
 # Licensing
 Assistive Cards are free for personal and non-commercial projects, and you are required to give proper attribution.
 
